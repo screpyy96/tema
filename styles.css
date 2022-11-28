@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #edf6f9;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+}
+
+/* navbar styling */
+
+nav {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+     background-color: #264653;
+    color: #f1faee;
+}
+
+nav > div {
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+nav > ul {
+    display: inherit;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#icon {
+    padding: 20px;
+
+
+}
+
+ul > li {
+    display: inherit;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+a {
+    color: #f1faee;
+    text-decoration: none;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-left: 20px
+}
+
+/* Home page */
+
+
+.title {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+.cards, .bullets {
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.card-wrapper, .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
+
+.card-wrapper > img {
+    width: 100%;
+    height: 390px;
+    /* padding: 10px; */
+    background-position: center ;
+
+}
+
+
+
+.card-wrapper > span {
+    position: relative;
+    bottom: 5%;
+    left: 0;
+    background-color: #ffb703;
+    padding: 10px 30px;
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wrapper > img {
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+}
+.wrapper > p {
+font-weight: 800;
+padding: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+}
+.search > span {
+  font-size: 2rem;
+  padding: 10px;
+}
+.btn > button {
+    display: inherit;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: .7rem 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .6s ease-in-out;
+    background-color: #2a9d8f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: max-content;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+
+
+form > input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* Despre */
+
+.main-wrapper { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-content > h2, h4 {
+    padding-top: 2rem;
+    font-size: 2rem
+}
+
+.second-content > p{
+    padding-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+
+
+.social {
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 20px;
+}
+
+.icon  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+}
+.icon > p {
+    display: flex;
+    align-items: center;
+}
+.icon > img {
+    margin: 10px;
+}
+
+.sign-up {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: auto 0;
+}
+
+.sign-up > button {
+    width: 40%;
+    margin-left: 10px;
+    border: none;
+    background-color: #e76f51;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* retete */
+.content-wrapper {
+    background-color: #e76f51;
+}
+
+.main-content {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.second-content {
+    background-color: #f1faee;
+    padding-top: 2rem;
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.content-title {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-title > h2{
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-title > p{
+    font-size: 1.5rem;
+}
+
+.bar { 
+    position: relative;
+    top: 7%;
+}
+
+.bar > form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.content-recipes {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 2rem;
+}
